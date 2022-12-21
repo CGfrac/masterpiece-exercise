@@ -8,7 +8,5 @@ body {
 
 .canvas {
     background-color: #FFF;
-    width: 800px;
-    height: 600px;
     border: 20px ridge #FFD700;
 }
