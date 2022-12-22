@@ -11,7 +11,10 @@ const circle = (() => {
     const draw = (posX, posY, ctx) => {
         ctx.beginPath();
         ctx.fillStyle = _getRandomColor();
-        ctx.arc(posX, posY, utils.getRandomNumber(10, 50), 0, 2* Math.PI, true);
+
+        const radius = utils.getRandomNumber(10, 50);
+
+        ctx.arc(posX, posY, radius, 0, 2 * Math.PI);
         ctx.fill();
     };
 
